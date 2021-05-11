@@ -26,11 +26,11 @@ function makePromises() {
 
   Promise.all(promises).then(function(values) {
     // only find nl-links
-    var output = "url;referentienummer;identifier\n"
+    var output = "url,referentienummer,identifier\n"
     for(var v=0; v < values.length; v++) {
       if(values[v].links && values[v].links.nlwiki) {
         var url = values[v].links.nlwiki.url;
-        output += `${url};${values[v].referentienummer};${values[v].identifier}\n`;
+        output += `${url},${values[v].referentienummer},${values[v].identifier}\n`;
       }
     }
     fs.writeFile('output.csv', output, function (err, file) {
