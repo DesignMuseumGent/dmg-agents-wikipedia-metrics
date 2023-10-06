@@ -1,5 +1,5 @@
 # dmg-agents-wikipedia-metrics
-Tool for analyzing and tracing the presence or absence of _artists, designers, organisations, ..._ on Wikipedia.  
+Tool for analyzing and tracing the presence or absence of _artists, designers, organisations, ..._ on Wikipedia based on Wikidata identifiers.  
 
 ## example
 ### input
@@ -35,7 +35,7 @@ https://nl.wikipedia.org/wiki/Ahrend,DMG-A-00030,Q2343811
 
 to use this tool, you need a list (csv) with two columns: 
 - column 1: the internal identifier used to identify the person. (if none are available you can replace these with any placeholder.)
-- column 2: wikidata identifiers (fe. Q) as an input. 
+- column 2: wikidata identifiers (fe. Q15875351) as an input. 
 
 ### A. install tool
 1. git clone the repository:
