@@ -31,8 +31,8 @@ https://nl.wikipedia.org/wiki/Ahrend,DMG-A-00030,Q2343811
 ```
 
 ## how to use 
-### prerequisites`
-`
+### prerequisites
+
 to use this tool, you need a list (csv) with two columns: 
 - column 1: the internal identifier used to identify the person. (if none are available you can replace these with any placeholder.)
 - column 2: wikidata identifiers (fe. Q) as an input. 
